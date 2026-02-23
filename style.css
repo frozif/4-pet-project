@@ -49,7 +49,7 @@ body, html{
 .container.container_nav {
     display: flex;
     align-items: center;
-    justify-content:space-evenly
+    justify-content:space-evenly;
 }
 .nav_menu_info {
     display: flex;
@@ -136,6 +136,7 @@ font-size: 28px;
 text-transform: uppercase;
 color: #f5f5f5;
     padding-top: 50px;
+      margin-top: 120px;
 }
 
 .services_info.services_info_pdng{
@@ -184,9 +185,7 @@ line-height: 150%;
 color: #f5f5f5;
 }
  
-.services_info_title{
-  margin-top: 120px;
-}
+
 /* ------------------------------------------- */
 /* Проект Меню */
 
@@ -279,10 +278,7 @@ color: #2b2b2b;
       gap: 30px;
           justify-content: center;
   }
-sw.swiper {
-  width: 600px;
-  height: 300px;
-}
+
 
 .swiper-button-prev svg,
 .swiper-button-next svg {
@@ -597,13 +593,10 @@ color: #2b2b2b;
     justify-content: center;
         padding: 0 15px;
 }
-.input_email {
 
-}
 
 .submit_panel h2{
   font-weight: 400;
-font-size: 42px;
 font-size: 20px;
     font-family: "Montserrat", sans-serif;
         max-width: 370px;
@@ -986,3 +979,86 @@ text-overflow: ellipsis;
 
 
 }
+@media (max-width: 430px) {
+.submit_panel h2{
+  font-size: 13px;
+}
+
+.input_button button{
+  margin: auto;
+  padding: 20px;
+}
+
+.submit_panel{
+  text-align: center;
+}
+
+.input_button{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img_panel_main{
+  gap: 20px;
+padding: 0;
+}
+
+
+.img_panel_main img{
+  width: 150px;
+  height: 200px;
+}
+
+.img_panel_main{
+  justify-items: center ;
+}
+
+.input_email{
+  width: auto;
+}
+
+.section_catalog_email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+}
+
+.container{
+  padding: 0 5px;
+}
+
+.section_catalog_info h2{
+  font-size: 36px
+}
+
+.section_delivery h2{
+  font-size: 36px;
+}
+
+.header_info h1{
+  font-size: 37px;
+}
+
+.header_info p{
+font-size: 15px;
+max-width: 370px;
+}
+
+.header_info button{
+  max-width: 150px;
+  height: 40px;
+  font-size: 10px;
+}
+
+.container.container_nav{
+  flex-direction: column-reverse;
+}
+}
+
+
+    
